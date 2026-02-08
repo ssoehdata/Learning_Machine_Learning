@@ -10,6 +10,7 @@ Working through various resources on ML
 
 # Other Resources
 <li>Machine Learning for Everybody</li>
+<li>Python Machine Learning Basics</li>
 
   
 </ul>
