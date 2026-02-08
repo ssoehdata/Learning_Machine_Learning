@@ -8,6 +8,8 @@ Working through various resources on ML
 <li>Python Machine Learning by Example, Yuxi (Hayden) Liu, 4th Edition</li>
 <li>Python ML Basics</li>
 
+# Other Resources
+<li>Machine Learning for Everybody</li>
 
   
 </ul>
