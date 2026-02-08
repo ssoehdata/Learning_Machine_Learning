@@ -1,0 +1,14 @@
+This chapter explores Decision Trees.
+This is accomplished by the building of a movie recommender.
+
+Topics and Techniques covered include:
+- Decision Trees 
+-Gradient Boost
+-Random Forests
+-Brief overview of click-through prediction 
+-Decision trees from the root to leaves 
+-Implementation of a Decision Tree from scratch 
+-Predicting ad click-through with a decision tree 
+-Ensembling decision trees - Random Forests 
+-Ensembling decision trees - Gradient-Boosted Trees
+

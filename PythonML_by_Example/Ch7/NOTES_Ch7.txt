@@ -1,0 +1,29 @@
+This chapter introduces Natural Language Processing (NLP):
+This is achieved by examining a newsgroup dataset (20Newsgroups data).
+
+
+Topics and Techniques covered include: 
+	- overview of some NLP libraries and NLP basics
+	- obtaining the newsgroups dataset 
+	- exploring the dataset 
+	- visualizing the data  with t-SNE
+	- feature exploration for the textual data 
+	- representing words with dense-vectors / word embedding 
+	
+	
+ 
+Terms and Definitions: 
+
+Tokenization - task of breaking a sequence into fragments(can be words, sentences, 			characters). Delimiters and other characters are removed, and what 
+		remains are the tokens. 
+Unigrams   -token comprised of one word 
+Bigram 	   -token comprised of two consecutive words 
+Trigrams   - three consecutive words 
+n-grams    - n consecutive words
+
+
+t-SNE     - t-distriubuted Stochastic Neighbor Embedding, embeds high-dimensional
+	    data into a low-dimensional (usually 2 or 3 -dimensional) space while
+	    preserving as much as possible the local structure and pairwise similarities of 	    the data.
+	  
+

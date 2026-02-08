@@ -1,0 +1,16 @@
+This chapter demonstrates a Naive Bayes recommender system.
+This is accomplished by building a movie recommendation system (an example 
+of supervised learning using binary classification) using the Naive Bayes method.
+
+Topics and Techniques learned in this chapter project included: 
+
+-Classification
+-Implementing Naive Bayes (incl. its theoretical underpinnings)
+-Building a movie recommender with Naive Bayes 
+-Evaluating classifier performance 
+-Tuning models with Cross-Validation
+
+
+In Baye's theorem the probability P(A|B) is the probability that A occurs given that B is true.
+
+P(A|B) = P(B|A)P(A)/P(B)

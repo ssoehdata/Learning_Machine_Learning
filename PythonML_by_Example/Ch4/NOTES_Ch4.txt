@@ -1,0 +1,19 @@
+This chapter covers Logistic Regression.
+This is accomplished by applying logistic regression for predicting ad click-through rates.
+(The material has been split into 2 separate jupyter notebooks in the repo)
+
+Topics and Techniques covered include: 
+
+One Hot Encoding 
+Original Encoding 
+Tensorflow 
+Logistic Regression 
+
+-Converting categorical features to numerical / using One-Hot Encoding and Original Encoding 
+-Classifying Data with Logistic Regression 
+-Training a Logistic Regression Model 
+
+(Second Notebook)
+-Training on large Datasets with online learning 
+-Handling Multiclass Classification 
+-Implelmenting Logistic Regression using Tensorflow

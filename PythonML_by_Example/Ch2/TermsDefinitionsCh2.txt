@@ -1,0 +1,42 @@
+Classification 
+	- has as its goal the mapping of observations (also called features or predictive 	variables) to the target Categories (also called Labels or Classes).
+
+There are 3 types of classification based on the possibility  of class- output: 
+	binary
+	multiclass 
+	multi-label classification
+
+Binary classification orders items into one of two possible classes.
+
+Multiclass classification - also known as multinomial classification allows for more 
+			    than two possible cases(e.g. handwritten digit identification).
+
+Multi-label classification - it differs from the previous two methods in that they use 
+			     a mutually exclusive classification system. A sample is 
+			     assigned one and only one  label. 
+			     The Multi-label methodology allows for more than one
+			     classification criterion. It could consist, for example,
+			     of multiple binary classifications(e.g. classifying proteins
+			     that may have multiple functions such as transport, storage,
+			     antibody functions etc.).
+
+
+Naive Bayes 			-is a probabilistic classifier that computes the 
+				 probability of each predictive feature (also known as 
+				 an attribute or signal) of the data belonging to each 
+				 class with the goal being to make a prediction of the
+				probability distribution over all classes. 
+
+				The name can be understood in that it uses Bayes' theorem
+				to map the probability of observed input features from a
+				given class to the probability of the class from observed
+				pieces of evidence.
+				
+				It is Naive in it's approach in that it makes simplifying
+				assumptions in its computation by assuming that 
+				predictive features are mutually independent.
+
+In Bayes' theorem the probability P(A|B) is the probability that A occurs given that B is true.
+
+P(A|B) = P(B|A)P(A)/P(B)
+

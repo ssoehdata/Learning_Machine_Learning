@@ -1,0 +1,52 @@
+This chapter introduces Neural Networks:
+This is achieved by building a simple neural network and then adding more computational
+units. 	
+A neural network is then applied to predicting stock prices from an historical data set.
+
+
+
+Topics and Techniques covered include: 
+	-activation functions 
+	-feedforward
+	-backpropagation 
+	-demystifying NN's
+	-building NN's
+	-picking the right activation functions
+	-preventing overfitting in NN's
+	-predicting stock prices with NN's
+	
+ 
+Terms and Definitions: 
+	-Activation Function: a mathematical operation applied to the output
+			      of each neuron in a neural network. 
+
+	-Layer: a conceptual collection of nodes (units) that are modeled after a
+		model of how neurons in a biological brain function. 
+		The input layer represents the input features, and each node 
+		is a predictive feature.
+	
+	- A simple NN is composed of a layer, a hidden layer, and an output layer.
+
+	- Hidden layers can be considered to be a composition of latent information
+	  extracted from the previous layer. When 2 or more hidden layers are present,
+	  a Deep Learning model is described. 
+
+- In Binary Classification, the output layer contains only one node whose value is
+	the probability of the positive class.
+
+- In Multiclass Classification the output layer consists of n nodes where n is the number 
+	of possible classes and the value of each node is the probability of predicting
+	that class. 
+
+- In Regression the output layer contains only one node, and its value is the prediction
+	result. 
+
+-Feedforward NN's are where data is only conveyed from the input layer to the output 
+	layer through a hidden layer (or layers). 
+
+	Logistic Regression is essentially
+	a feedforward neural network with no hidden layer where the output layer connects
+	directly with the input layer. Adding hidden layers between the input and output
+	layers introduces non-linearity to the model.
+
+

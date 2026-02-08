@@ -1,0 +1,14 @@
+This chapter covers another example of Unsupervised Learning:
+	 Clustering and Topic Modeling.
+This is accomplished by using a variety of techniques on various datasets
+(iris, 20 Newsgroups).
+
+
+Topics and Techniques covered include: 
+ - Learning without guidance(unsupervised learning)
+ - k-means clustering
+ - clustering newsgroups data 
+ - discovering underlying topics in newsgroups
+ - LDA (Latent Dirichlet Allocation)
+ - NMF (Non-negative matrix factorization) 
+

@@ -1,0 +1,27 @@
+This chapter focusses on Support Vector Machine (SVM) Classifiers:
+This will be implemented on a facial image dataset.
+
+
+Topics and Techniques covered include: 
+	-PCA(Principle Component Analysis) is a dimensionality reduction technique
+	which boosts the performance of the classifier.
+
+	-Support Vector Regression
+	
+	
+	
+ 
+Terms and Definitions: 
+
+
+Hyperplanes - SVM classifiers find an optimal dimensional space that best segregates
+	      observations.
+
+	      It is a plane of n-1 dimensions that separates the n-dimensional feature
+	      space fot he observations into two spaces.
+	      
+	      The optimal hyperplane is picked such that the distance from its nearest
+	      points in each space to itself is maximized- these nearest points are the
+	      support vectors. 
+
+Support Vectors - the nearest points to the hyperlane.

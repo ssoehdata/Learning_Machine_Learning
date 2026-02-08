@@ -1,0 +1,19 @@
+This chapter covers other Classification Models:
+	Linear Regression
+	Regression Trees
+	Regression Forests
+	Support Vector Regression
+These are explored in the context of examining historical stock price data.
+
+
+Topics and Techniques covered include: 
+	- what is regression
+	- mining stock price data 
+	- feature engineering 
+	- estimating with linear regression 
+	- estimating with linear decision tree regression 
+	- implementing a regression forest 
+	- evaluating regression performance
+	- predicting stock prices with three regression algorithms
+ 
+

@@ -1,0 +1,15 @@
+Clustering - grouping data based on commonality. Often used in exploratory analysis.
+	     k-means clustering is an example algorithm used for clustering. 
+
+
+Association - The co-occurrence of particular values of two or more features.
+	      Common use case is in outlier (anomaly) detection. 
+
+Projection -  Mapping the original feature space to a reduced dimensional space 
+	      while retaining or extracting a set of principle variables. 
+	      t-SNE (t-distributed stochastic neighbor embedding) is an example of 		      dimensionality reduction (used in ch7). 
+
+k-means clustering - Partitions data into k groups based on feature similarities.
+		     Each k cluster is specified by a centroid (center or cluster),
+                     and each data sample belongs to the cluster with the nearest
+                     centroid.
