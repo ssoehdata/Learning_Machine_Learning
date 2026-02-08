@@ -1,0 +1,51 @@
+Notes from lecture as well as additional sources (e.g. https://www.geeksforgeeks.org/supervised-machine-learning/)
+
+
+AI - a domain of computing whose goal is  to perform human-like tasks and simulate human behaviour.
+
+ML - a subset of AI (subdomain) that uses algorithms to learn from data with explicit programming. (Explicit Programming).
+
+Data Science -  a field that attempts to find patterns and draw insights from data.
+
+Types of ML:
+
+1) Supervised Learning: 
+- uses labeled inputs (i.e. the input has a corresponding output label) 
+   to train models and learn outputs. 
+
+    Examples of Supervised Learning (a: Classification(defined labels) 
+                                     b: Regression (no labels defined)
+
+        Some common Supervised ML algorithms: 
+                (linear regression, logistic regression, decision trees, 
+                 random forests, SVM's(support vector machines),
+                  KNN (K-Nearest Neighbors), Gradient Boosting
+
+2) Unsupervised Learning: 
+    - Use unlabled data to learn about patterns in the data. 
+
+    - 3 main types (Clustering, Associative Learning, Dimensionality Reduction)
+
+      Some common Clustering Algorithms: (K-means Clustering, Hierarchical Clustering,
+                                           Density-Based Clustering[DBSCAN],
+                                           Mean-Shift Clustering, Spectral Clustering.
+
+     Some common Algo's for Associative Clustering: 
+                    (Apriori Algorithm, FP-Growth Algorithm, Eclat Algorithm,
+                    Efficient Tree-based Algorithms)
+
+
+    Some common methods for Dimensionality Reduction: 
+                    PCA(Principle Component Analysis),
+                    LDA(Linear Discriminant Analysis)
+                    LLE(Locally Linear Embedding)
+
+3) Reinforcement Learning
+        - agent learning in interactive environment abased on rewards and penalties.
+
+        Two main types (Positive and Negative Reinforcement Learning) 
+
+
+
+
+

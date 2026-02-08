@@ -1,0 +1,171 @@
+Supervised Learning:
+    - inputs into a model, which then outputs a prediction
+Feature Vector (name for the inputs)
+
+Feature types: 
+    Qualitative - categorical data (finite number of categories or groups)
+                examples: gender, countries,
+ 
+  Some types: nominal, ordinal, quantitative
+
+        1)  Nominal Data - has no inherent order or hierarchy
+
+       One-Hot Encoding: 
+             - technique representing categorical variables as numerical values 
+
+             ex1. - set the data points to either a '1' or a '0' 
+            
+        One-Hot coding example: 
+
+                USA     [1,0,0,0]
+                India   [0,1,0,0]
+                Canada  [0,0,1,0]
+                France  [0,0,0,1] 
+
+(how convenient that this makes the identity matrix) 
+      ex2.  Fruit (categorical val of fruit) price []
+    
+
+           Fruit	Categorical value of fruit	Price
+            apple	1	            5
+            mango	2	            10
+            apple	1	            15
+            orange	3	            20
+
+
+
+            after applying one-hot encoding on the data: 
+
+            apple	mango	orange	price
+            1	    0	    0	    5
+            0	    1	    0	    10
+            1	    0	    0	    15
+            0	    0	    1	    20
+
+Another Type of Categorical Data: 
+
+     2) Ordinal Data (have inherent Order) 
+    examples  of  Features of such Qualitative data (ordinal)
+
+    age groups (babies,toddler,teenagers, young adults, adults)   bad, no so good, mediocre, good, great
+
+ - these can be labeled in a numeric order e.g. 1,2,3,4,5  etc 
+
+
+
+ 3) Quantitative Data : 
+            - numerical values data (can be discrete (integer) or continuous (all real numbers) 
+
+ examples of quantitive data:  length, time, temperature, age (continuous), number of jelly beans (discrete)
+
+                                (decimal places for a single value indicate it is continuous)
+
+
+############
+Supervised Learning Tasks: 
+
+1) Classification - predict discrete classes 
+
+a) 
+ (e.g. hot-dog, not hot-dog,)   - " Binary Classification"  [predicting between only 2 defined classes ]
+    - hot/cold
+    - spam/not spam
+    - cat /dog
+
+or 
+
+b) pizza, ice creamm hot dog   - "MultiClass Classification" [more than 2 classes]
+    cat/dog/lizard/dolphin
+
+    orange/apple/pear
+
+    plant species 
+
+
+2) Regression  - predict continious values 
+    
+   trying to come up with a number on a given scale
+   e.g.  temp tomorrow, 
+         price of a house, 
+         bit coin price in a week
+         
+
+
+##
+How to evaluate whether  a model is "good" or not. 
+
+
+     comparing the output (prediction) in our Outcome  
+
+
+ feature vector =  (columns /labels e.g. the magic  astronomy column names ) 
+
+  target = outcome vector (h, or g, or 1, or 0) 
+
+or: 
+
+  pregnancies  gluc bp  skin thickness  insulin  bmi age   outcome 
+   4           148  72   35               0        33.6     1        # with outcome being either a 1 or a 0 (yes/no)
+
+Feature Mattrix x : 
+
+   -each row would be an individual patient  = different sample in the data 
+--the above columns are the different Features
+
+Target Vector y : 
+
+- the  final 1, 0 column is the Output Label  Vector for a given feature vector (in this example a patient) 
+
+  the values 1, 0 are the target outputs (signifying if they have diabetes or not) 
+
+
+
+Training Process: 
+     the rows (in the feature matrix) are fed into the model
+    the outputs(predictions) are compared to the labeled data  (our y data)
+    adjustments are made on successive iterations to the model as needed to more closely match
+     the  true values in the  labeled data vs. what the model outputs.
+
+
+ - data sets are broken up into  3 training sets to determine how well the model 
+   can generalize
+ 1) Training Dataset
+ 2) Valdiation Dataset
+ 3) Testing Dataset
+
+
+Training - compare the "Loss"  ( the difference in predicted output vs. labeled true value)
+           and make adjustments (training the model) 
+
+Validation - used as a 'reality check' to ensure the model and can handle unseen data 
+            - the validation data is not fed back into the model for adjustments however
+                                         
+Testing  - running data on the best version of the model after the previous steps to evaluate 
+           performance (will give the final reported performance for the model) 
+
+
+###############
+
+there are various loss fxns
+e.g.  L1 Loss  (sum of the abs value of real vs predicted)
+     = sum( |y real  - y predicted | )   
+
+
+     L2 Loss  (sq of the difference) 
+    = sum ((y real  - y predicted)^2)
+
+
+  Binary Cross Entropy Loss 
+
+ loss = -1/N * sum(y real * log(y predicted) + (1 - y real) * log((1 -y predicted)))
+
+  - loss decreases as the performance gets better
+
+
+############
+Accuracy
+
+
+
+
+     
